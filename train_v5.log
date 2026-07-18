@@ -1,0 +1,15 @@
+Model parameters: 854,664 | world_size=2 (per-GPU batch 4, global batch 8)
+No ./checkpoints_v5 checkpoint; warm-started model weights from ./checkpoints_v4/best.pt (epoch 9).
+Epoch plan: 375 steps/GPU/epoch; each step trains every speaker of 4 rooms on each of 2 GPU(s). Logging step 1 and then every 10 steps.
+Epoch 1 Step 1/375 Loss -0.2847 (13.5 s/step)
+Epoch 1 Step 10/375 Loss -0.4171 (6.9 s/step)
+/media/uasdtu/DataSets2/VOCAL_ALERTNESS/DontDeleteMe/train.py:986: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  ax.legend()
+Epoch 1 Step 20/375 Loss -0.4038 (6.2 s/step)
+Epoch 1 Step 30/375 Loss -0.3792 (6.4 s/step)
+Epoch 1 Step 40/375 Loss -0.3745 (6.2 s/step)
+Epoch 1 Step 50/375 Loss -0.3814 (6.2 s/step)
+Epoch 1 Step 60/375 Loss -0.3786 (6.2 s/step)
+Epoch 1 Step 70/375 Loss -0.3670 (6.2 s/step)
+/opt/conda/envs/ai_env/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 40 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

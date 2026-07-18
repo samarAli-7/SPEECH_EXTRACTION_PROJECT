@@ -1,0 +1,12 @@
+Close-speaker fallback -- end-to-end audio test
+checkpoint: /media/uasdtu/DataSets2/VOCAL_ALERTNESS/DontDeleteMe/./checkpoints_v5/best.pt (epoch 6)
+5 speakers: one neighbour at the listed separation, 3 others at least 45° away.
+Mean over 5 random scenes (voices, orientation, and far speakers redrawn); the saved wavs are draw 0.
+
+   sep |   mixture |  beamformer |     final |    gain | path
+--------------------------------------------------------------------
+   3.0 |     -5.93 |        0.56 |     11.18 |  +10.61 | fallback
+   6.0 |     -5.83 |        3.88 |     12.48 |   +8.60 | fallback
+  10.0 |     -6.03 |        6.99 |     11.47 |   +4.48 | fallback
+  15.0 |     -5.83 |       12.91 |     12.91 |   +0.00 | direct
+  30.0 |     -7.97 |       16.77 |     16.77 |   +0.00 | direct

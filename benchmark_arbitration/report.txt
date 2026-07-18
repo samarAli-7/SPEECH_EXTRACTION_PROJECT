@@ -1,0 +1,33 @@
+ECAPA arbitration vs. a fixed angular gate
+checkpoint: ./checkpoints_v5/best.pt (epoch 6), 16 trials/point
+median SI-SDR (dB) vs. the target at the reference mic
+
+--- 2-speaker cluster ---
+  sep |   always-direct | always-fallback |      angle-gate |       arbitrate |          oracle | fires | correct
+------------------------------------------------------------------------------------------------------------
+  4.0 |            0.39 |           10.54 |           10.54 |            9.99 |           10.54 |  0.88 |    0.88
+  6.0 |            2.35 |            9.38 |            9.38 |            8.39 |            9.38 |  0.75 |    0.75
+  8.0 |            4.76 |           12.51 |           12.51 |           12.51 |           12.51 |  0.75 |    0.75
+ 10.0 |            4.30 |           11.30 |           11.30 |           10.49 |           11.30 |  0.81 |    0.75
+ 12.0 |            9.52 |           13.25 |           13.25 |           11.84 |           13.46 |  0.56 |    0.62
+ 15.0 |           10.64 |           13.96 |           13.96 |           11.21 |           14.47 |  0.25 |    0.38
+ 20.0 |           13.70 |           10.67 |           13.70 |           13.67 |           13.94 |  0.31 |    0.50
+ 25.0 |           14.95 |            9.34 |           14.95 |           15.27 |           15.29 |  0.19 |    0.75
+
+mean over the whole sweep: always-direct 7.39, always-fallback 10.91, angle-gate 11.84, arbitrate 11.04, oracle 12.29
+
+--- 3-speaker cluster ---
+  sep |   always-direct | always-fallback |      angle-gate |       arbitrate |          oracle | fires | correct
+------------------------------------------------------------------------------------------------------------
+  4.0 |           -2.62 |            6.03 |            6.03 |            5.96 |            6.03 |  0.94 |    0.94
+  6.0 |           -2.11 |            7.80 |            7.80 |            7.80 |            7.80 |  1.00 |    1.00
+  8.0 |           -1.51 |            8.14 |            8.14 |            7.71 |            8.14 |  0.88 |    0.88
+ 10.0 |           -0.08 |            7.58 |            7.58 |            6.29 |            7.58 |  0.75 |    0.75
+ 12.0 |            2.21 |            7.78 |            7.78 |            7.03 |            7.78 |  0.69 |    0.81
+ 15.0 |            4.69 |            9.04 |            9.04 |            8.68 |            9.04 |  0.56 |    0.81
+ 20.0 |            8.54 |           11.82 |           11.82 |           10.45 |           11.82 |  0.50 |    0.62
+ 25.0 |           10.54 |           10.82 |           10.54 |           11.62 |           12.07 |  0.56 |    0.81
+
+mean over the whole sweep: always-direct 2.51, always-fallback 7.93, angle-gate 7.97, arbitrate 7.50, oracle 8.31
+
+Recommended gating: 2-speaker cluster: angle-gate, 3-speaker cluster: angle-gate

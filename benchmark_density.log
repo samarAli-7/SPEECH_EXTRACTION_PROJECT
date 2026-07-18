@@ -1,0 +1,110 @@
+
+### 2-speaker cluster, 2 speakers in the room (0 far) ###
+  sep   6.0 | direct   8.63 | fallback  12.48 | fallback wins 0.88
+  sep  10.0 | direct  15.01 | fallback  14.09 | fallback wins 0.31
+  sep  12.0 | direct  14.72 | fallback  12.99 | fallback wins 0.44
+  sep  15.0 | direct  18.30 | fallback  11.26 | fallback wins 0.25
+  sep  20.0 | direct  19.77 | fallback  10.95 | fallback wins 0.00
+  sep  25.0 | direct  21.85 | fallback   8.88 | fallback wins 0.00
+  -> cluster 2, 2 speakers: fallback wins up to 6°, direct wins from 10° -> trigger 8.0°
+
+### 2-speaker cluster, 3 speakers in the room (1 far) ###
+  sep   6.0 | direct   2.92 | fallback   9.45 | fallback wins 1.00
+  sep  10.0 | direct  14.13 | fallback  12.04 | fallback wins 0.38
+  sep  12.0 | direct  12.40 | fallback  13.91 | fallback wins 0.56
+  sep  15.0 | direct  17.23 | fallback  15.39 | fallback wins 0.56
+  sep  20.0 | direct  19.62 | fallback  14.59 | fallback wins 0.19
+  sep  25.0 | direct  20.87 | fallback  10.27 | fallback wins 0.00
+  -> cluster 2, 3 speakers: fallback wins up to 6°, direct wins from 10° -> trigger 8.0°
+
+### 2-speaker cluster, 4 speakers in the room (2 far) ###
+  sep   6.0 | direct   3.32 | fallback  10.84 | fallback wins 1.00
+  sep  10.0 | direct   8.82 | fallback  12.39 | fallback wins 0.88
+  sep  12.0 | direct  13.30 | fallback  11.58 | fallback wins 0.31
+  sep  15.0 | direct  15.92 | fallback  11.92 | fallback wins 0.44
+  sep  20.0 | direct  16.58 | fallback  12.06 | fallback wins 0.06
+  sep  25.0 | direct  17.29 | fallback  11.21 | fallback wins 0.19
+  -> cluster 2, 4 speakers: fallback wins up to 10°, direct wins from 12° -> trigger 11.0°
+
+### 2-speaker cluster, 6 speakers in the room (4 far) ###
+  sep   6.0 | direct   1.99 | fallback  10.35 | fallback wins 0.94
+  sep  10.0 | direct   5.77 | fallback  12.02 | fallback wins 1.00
+  sep  12.0 | direct   7.31 | fallback  11.88 | fallback wins 0.94
+  sep  15.0 | direct  11.98 | fallback  13.91 | fallback wins 0.75
+  sep  20.0 | direct  13.15 | fallback  10.29 | fallback wins 0.44
+  sep  25.0 | direct  13.99 | fallback  11.97 | fallback wins 0.44
+  -> cluster 2, 6 speakers: fallback wins up to 15°, direct wins from 20° -> trigger 17.5°
+
+### 2-speaker cluster, 10 speakers in the room (8 far) ###
+  sep   6.0 | direct   0.04 | fallback   7.46 | fallback wins 1.00
+  sep  10.0 | direct   1.05 | fallback   7.68 | fallback wins 0.81
+  sep  12.0 | direct   2.34 | fallback   8.69 | fallback wins 0.94
+  sep  15.0 | direct   5.25 | fallback   9.12 | fallback wins 0.94
+  sep  20.0 | direct   3.74 | fallback   9.54 | fallback wins 1.00
+  sep  25.0 | direct   9.19 | fallback   8.71 | fallback wins 0.75
+  -> cluster 2, 10 speakers: fallback wins up to 25°, direct wins from None° -> trigger 25°
+
+### 3-speaker cluster, 3 speakers in the room (0 far) ###
+  sep   6.0 | direct   1.00 | fallback   7.93 | fallback wins 0.94
+  sep  10.0 | direct   7.04 | fallback   9.76 | fallback wins 0.81
+  sep  12.0 | direct  11.35 | fallback  12.54 | fallback wins 0.94
+  sep  15.0 | direct  14.38 | fallback  12.91 | fallback wins 0.44
+  sep  20.0 | direct  17.08 | fallback   9.76 | fallback wins 0.19
+  sep  25.0 | direct  17.49 | fallback  17.58 | fallback wins 0.50
+  -> cluster 3, 3 speakers: fallback wins up to 12°, direct wins from 15° -> trigger 13.5°
+
+### 3-speaker cluster, 4 speakers in the room (1 far) ###
+  sep   6.0 | direct  -1.74 | fallback   6.26 | fallback wins 1.00
+  sep  10.0 | direct   3.97 | fallback  10.28 | fallback wins 0.94
+  sep  12.0 | direct   5.34 | fallback  10.35 | fallback wins 0.88
+  sep  15.0 | direct  11.53 | fallback  12.65 | fallback wins 0.88
+  sep  20.0 | direct  14.86 | fallback  14.42 | fallback wins 0.44
+  sep  25.0 | direct  16.10 | fallback  16.58 | fallback wins 0.69
+  -> cluster 3, 4 speakers: fallback wins up to 15°, direct wins from 20° -> trigger 17.5°
+
+### 3-speaker cluster, 5 speakers in the room (2 far) ###
+  sep   6.0 | direct  -1.23 | fallback   7.57 | fallback wins 1.00
+  sep  10.0 | direct   1.67 | fallback   7.77 | fallback wins 1.00
+  sep  12.0 | direct   4.53 | fallback   8.61 | fallback wins 0.94
+  sep  15.0 | direct   7.54 | fallback   9.98 | fallback wins 0.81
+  sep  20.0 | direct  11.55 | fallback  10.11 | fallback wins 0.62
+  sep  25.0 | direct  14.62 | fallback  15.13 | fallback wins 0.56
+  -> cluster 3, 5 speakers: fallback wins up to 25°, direct wins from None° -> trigger 25°
+
+### 3-speaker cluster, 7 speakers in the room (4 far) ###
+  sep   6.0 | direct  -2.29 | fallback   6.76 | fallback wins 1.00
+  sep  10.0 | direct  -0.04 | fallback   7.59 | fallback wins 1.00
+  sep  12.0 | direct   1.74 | fallback   9.10 | fallback wins 1.00
+  sep  15.0 | direct   5.27 | fallback  10.72 | fallback wins 0.81
+  sep  20.0 | direct   8.26 | fallback  11.03 | fallback wins 0.88
+  sep  25.0 | direct   9.97 | fallback  10.49 | fallback wins 0.69
+  -> cluster 3, 7 speakers: fallback wins up to 25°, direct wins from None° -> trigger 25°
+
+### 3-speaker cluster, 11 speakers in the room (8 far) ###
+  sep   6.0 | direct  -3.25 | fallback   5.96 | fallback wins 1.00
+  sep  10.0 | direct  -1.85 | fallback   6.41 | fallback wins 0.94
+  sep  12.0 | direct  -1.03 | fallback   5.17 | fallback wins 0.88
+  sep  15.0 | direct   1.32 | fallback   6.51 | fallback wins 1.00
+  sep  20.0 | direct   2.00 | fallback   6.62 | fallback wins 0.94
+  sep  25.0 | direct   5.26 | fallback   7.75 | fallback wins 0.75
+  -> cluster 3, 11 speakers: fallback wins up to 25°, direct wins from None° -> trigger 25°
+
+Wrote fallback_thresholds.json:
+{
+  "2": {
+    "2": 8.0,
+    "3": 8.0,
+    "4": 11.0,
+    "6": 17.5,
+    "10": 25
+  },
+  "3": {
+    "3": 13.5,
+    "4": 17.5,
+    "5": 25,
+    "7": 25,
+    "11": 25
+  }
+}
+
+Saved ./benchmark_density/

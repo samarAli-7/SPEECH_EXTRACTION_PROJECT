@@ -1,0 +1,31 @@
+target file      : /media/uasdtu/DataSets2/VOCAL_ALERTNESS/DSENet/DATASET/LibriSpeech/87/121553/87-121553-0104.flac
+true azimuth     : 252.7 deg
+mixture SI-SDR   :  -4.06 dB (vs target, at reference mic)
+
+   azimuth | SI-SDR (dB) | note
+--------------------------------------------
+       0.0 |      -21.86 | 107.3 deg off
+      15.0 |      -15.74 | 122.3 deg off
+      30.0 |      -14.87 | 137.3 deg off
+      45.0 |      -10.27 | 152.3 deg off
+      60.0 |       -4.24 | 167.3 deg off
+      75.0 |       -3.03 | 177.7 deg off
+      90.0 |       -2.67 | 162.7 deg off
+     105.0 |       -3.89 | 147.7 deg off
+     120.0 |       -5.47 | 132.7 deg off
+     135.0 |      -10.71 | 117.7 deg off
+     150.0 |      -21.42 | 102.7 deg off
+     165.0 |      -43.71 |  87.7 deg off
+     180.0 |      -56.54 |  72.7 deg off
+     195.0 |      -50.71 |  57.7 deg off
+     210.0 |      -29.73 |  42.7 deg off
+     225.0 |       -4.05 |  27.7 deg off
+     240.0 |        6.67 |  12.7 deg off
+     255.0 |       17.08 |   2.3 deg off
+     270.0 |       11.32 |  17.3 deg off
+     285.0 |        0.91 |  32.3 deg off
+     300.0 |      -22.24 |  47.3 deg off
+     315.0 |      -67.72 |  62.3 deg off
+     330.0 |      -42.03 |  77.3 deg off
+     345.0 |      -26.63 |  92.3 deg off
+     252.7 |       16.20 | TRUE DIRECTION

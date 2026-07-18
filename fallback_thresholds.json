@@ -1,0 +1,24 @@
+{
+  "trigger_table": {
+    "2": {
+      "2": 8.0,
+      "3": 8.0,
+      "4": 11.0,
+      "6": 17.5,
+      "10": 25
+    },
+    "3": {
+      "3": 13.5,
+      "4": 17.5,
+      "5": 25,
+      "7": 25,
+      "11": 25
+    }
+  },
+  "separator": {
+    "2": "sepformer-wsj02mix",
+    "3": "sepformer-wsj03mix"
+  },
+  "note": "trigger_table[cluster_size][total_speakers] = separation angle below which the fallback wins; interpolate over total_speakers.",
+  "source": "benchmark_density.py"
+}

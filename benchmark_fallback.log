@@ -1,0 +1,31 @@
+Model: ./checkpoints_v5/best.pt (epoch 6) on cuda:0
+
+########## 2-speaker cluster (1 near interferer) ##########
+  sep   2.0 | direct -0.4 | wsj02mix/bf/mask/enrol 9.3 | wsj02mix/bf/direct/enrol 8.6 | whamr16k/bf/mask/enrol 9.2 | wsj02mix/mix/mask/enrol -6.2
+  sep   4.0 | direct 0.0 | wsj02mix/bf/mask/enrol 9.4 | wsj02mix/bf/direct/enrol 7.6 | whamr16k/bf/mask/enrol 9.7 | wsj02mix/mix/mask/enrol -5.5
+  sep   6.0 | direct 2.4 | wsj02mix/bf/mask/enrol 10.3 | wsj02mix/bf/direct/enrol 9.5 | whamr16k/bf/mask/enrol 9.9 | wsj02mix/mix/mask/enrol -5.8
+  sep   8.0 | direct 4.2 | wsj02mix/bf/mask/enrol 9.8 | wsj02mix/bf/direct/enrol 10.0 | whamr16k/bf/mask/enrol 9.4 | wsj02mix/mix/mask/enrol -6.0
+  sep  10.0 | direct 4.1 | wsj02mix/bf/mask/enrol 10.5 | wsj02mix/bf/direct/enrol 10.8 | whamr16k/bf/mask/enrol 9.6 | wsj02mix/mix/mask/enrol -7.2
+  sep  12.0 | direct 7.6 | wsj02mix/bf/mask/enrol 12.9 | wsj02mix/bf/direct/enrol 11.4 | whamr16k/bf/mask/enrol 10.7 | wsj02mix/mix/mask/enrol -5.5
+  sep  15.0 | direct 9.0 | wsj02mix/bf/mask/enrol 13.3 | wsj02mix/bf/direct/enrol 10.7 | whamr16k/bf/mask/enrol 11.8 | wsj02mix/mix/mask/enrol -10.8
+  sep  20.0 | direct 13.8 | wsj02mix/bf/mask/enrol 13.0 | wsj02mix/bf/direct/enrol 11.1 | whamr16k/bf/mask/enrol 14.9 | wsj02mix/mix/mask/enrol -5.4
+  sep  25.0 | direct 14.4 | wsj02mix/bf/mask/enrol 12.2 | wsj02mix/bf/direct/enrol 10.5 | whamr16k/bf/mask/enrol 14.9 | wsj02mix/mix/mask/enrol -6.9
+  sep  30.0 | direct 15.9 | wsj02mix/bf/mask/enrol 10.6 | wsj02mix/bf/direct/enrol 9.7 | whamr16k/bf/mask/enrol 16.4 | wsj02mix/mix/mask/enrol -6.0
+
+########## 3-speaker cluster (2 near interferers) ##########
+  sep   2.0 | direct -3.1 | wsj03mix/bf/mask/enrol 7.6 | wsj03mix/bf/direct/enrol 7.9 | wsj03mix/mix/mask/enrol -6.8
+  sep   4.0 | direct -2.7 | wsj03mix/bf/mask/enrol 7.8 | wsj03mix/bf/direct/enrol 7.7 | wsj03mix/mix/mask/enrol -7.3
+  sep   6.0 | direct -1.9 | wsj03mix/bf/mask/enrol 7.7 | wsj03mix/bf/direct/enrol 6.6 | wsj03mix/mix/mask/enrol -5.1
+  sep   8.0 | direct -0.4 | wsj03mix/bf/mask/enrol 8.1 | wsj03mix/bf/direct/enrol 8.1 | wsj03mix/mix/mask/enrol -7.6
+  sep  10.0 | direct -0.7 | wsj03mix/bf/mask/enrol 8.3 | wsj03mix/bf/direct/enrol 8.9 | wsj03mix/mix/mask/enrol -4.4
+  sep  12.0 | direct 1.5 | wsj03mix/bf/mask/enrol 8.8 | wsj03mix/bf/direct/enrol 9.1 | wsj03mix/mix/mask/enrol -6.1
+  sep  15.0 | direct 3.2 | wsj03mix/bf/mask/enrol 7.7 | wsj03mix/bf/direct/enrol 7.0 | wsj03mix/mix/mask/enrol -6.8
+  sep  20.0 | direct 9.1 | wsj03mix/bf/mask/enrol 10.5 | wsj03mix/bf/direct/enrol 9.2 | wsj03mix/mix/mask/enrol -5.2
+  sep  25.0 | direct 10.9 | wsj03mix/bf/mask/enrol 6.3 | wsj03mix/bf/direct/enrol 6.4 | wsj03mix/mix/mask/enrol -4.8
+  sep  30.0 | direct 13.3 | wsj03mix/bf/mask/enrol 13.7 | wsj03mix/bf/direct/enrol 12.5 | wsj03mix/mix/mask/enrol -14.8
+
+2-speaker cluster (1 near interferer): best variant 'wsj02mix/bf/mask', fallback beats direct up to 15 deg
+
+3-speaker cluster (2 near interferers): best variant 'wsj03mix/bf/mask', fallback beats direct up to 30 deg
+
+Saved ./benchmark_fallback/ (188s)

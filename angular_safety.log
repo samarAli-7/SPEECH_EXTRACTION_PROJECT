@@ -1,0 +1,40 @@
+Model: ./checkpoints_v5/best.pt (epoch 6, val SI-SDR 10.94 dB) on cuda:0
+163 validation speakers, 2193 clips
+
+=== 2 speakers (target + near interferer) ===
+  sep   2.0 deg | SI-SDR   0.26 dB (p25  -1.23, p75   2.10) | SIR_out   1.93 dB | mixture   0.03 dB
+  sep   4.0 deg | SI-SDR   3.18 dB (p25   1.07, p75   6.08) | SIR_out   7.24 dB | mixture  -0.01 dB
+  sep   6.0 deg | SI-SDR   7.30 dB (p25   4.25, p75   9.42) | SIR_out  12.35 dB | mixture  -0.03 dB
+  sep   8.0 deg | SI-SDR  11.31 dB (p25   7.46, p75  13.27) | SIR_out  19.90 dB | mixture  -0.02 dB
+  sep  10.0 deg | SI-SDR  14.08 dB (p25  10.70, p75  18.85) | SIR_out  27.29 dB | mixture   0.05 dB
+  sep  12.0 deg | SI-SDR  16.92 dB (p25  13.82, p75  19.79) | SIR_out  37.35 dB | mixture  -0.02 dB
+  sep  15.0 deg | SI-SDR  18.30 dB (p25  16.46, p75  20.40) | SIR_out  34.61 dB | mixture   0.01 dB
+  sep  20.0 deg | SI-SDR  20.13 dB (p25  15.35, p75  21.96) | SIR_out  42.88 dB | mixture  -0.00 dB
+  sep  25.0 deg | SI-SDR  21.21 dB (p25  19.87, p75  22.58) | SIR_out  41.81 dB | mixture   0.00 dB
+  sep  30.0 deg | SI-SDR  21.40 dB (p25  20.54, p75  23.25) | SIR_out  39.29 dB | mixture   0.03 dB
+  sep  40.0 deg | SI-SDR  22.54 dB (p25  21.09, p75  24.06) | SIR_out  42.02 dB | mixture  -0.03 dB
+  sep  60.0 deg | SI-SDR  22.99 dB (p25  21.61, p75  24.26) | SIR_out  47.74 dB | mixture  -0.03 dB
+  sep  90.0 deg | SI-SDR  23.57 dB (p25  21.93, p75  24.51) | SIR_out  45.07 dB | mixture  -0.02 dB
+  sep 120.0 deg | SI-SDR  22.94 dB (p25  20.76, p75  25.32) | SIR_out  43.02 dB | mixture  -0.02 dB
+  -> plateau 22.99 dB | safe (within 3 dB of plateau): 20 deg | safe (>= 10 dB for ASR): 8 deg
+
+=== 6 speakers (1 near + 4 far) ===
+  sep   2.0 deg | SI-SDR   0.18 dB (p25  -0.83, p75   0.61) | SIR_out   0.56 dB | mixture  -6.96 dB
+  sep   4.0 deg | SI-SDR  -0.00 dB (p25  -0.78, p75   0.45) | SIR_out   0.65 dB | mixture  -6.95 dB
+  sep   6.0 deg | SI-SDR   1.16 dB (p25   0.44, p75   2.95) | SIR_out   2.74 dB | mixture  -6.87 dB
+  sep   8.0 deg | SI-SDR   3.57 dB (p25   2.51, p75   6.11) | SIR_out   6.20 dB | mixture  -6.93 dB
+  sep  10.0 deg | SI-SDR   5.31 dB (p25   2.40, p75   7.93) | SIR_out   9.09 dB | mixture  -6.94 dB
+  sep  12.0 deg | SI-SDR   7.67 dB (p25   4.95, p75   9.98) | SIR_out  12.81 dB | mixture  -6.92 dB
+  sep  15.0 deg | SI-SDR  10.76 dB (p25   7.76, p75  13.56) | SIR_out  19.86 dB | mixture  -7.03 dB
+  sep  20.0 deg | SI-SDR  13.64 dB (p25  11.56, p75  14.99) | SIR_out  27.03 dB | mixture  -7.01 dB
+  sep  25.0 deg | SI-SDR  14.86 dB (p25  13.74, p75  16.32) | SIR_out  37.11 dB | mixture  -6.92 dB
+  sep  30.0 deg | SI-SDR  15.69 dB (p25  14.36, p75  16.64) | SIR_out  35.82 dB | mixture  -7.00 dB
+  sep  40.0 deg | SI-SDR  16.28 dB (p25  15.06, p75  17.34) | SIR_out  37.28 dB | mixture  -6.93 dB
+  sep  60.0 deg | SI-SDR  16.74 dB (p25  14.86, p75  18.77) | SIR_out  42.84 dB | mixture  -6.97 dB
+  sep  90.0 deg | SI-SDR  17.42 dB (p25  15.14, p75  18.48) | SIR_out  43.07 dB | mixture  -6.99 dB
+  sep 120.0 deg | SI-SDR  16.99 dB (p25  15.83, p75  18.46) | SIR_out  44.24 dB | mixture  -7.01 dB
+  -> plateau 16.99 dB | safe (within 3 dB of plateau): 25 deg | safe (>= 10 dB for ASR): 15 deg
+
+RECOMMENDED SAFE_SEPARATION_DEG = 15
+
+Saved ./angular_safety/report.txt, results.json, curve.png

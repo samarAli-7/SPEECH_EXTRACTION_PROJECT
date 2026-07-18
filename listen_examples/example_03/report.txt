@@ -1,0 +1,5 @@
+target file    : /media/uasdtu/DataSets2/VOCAL_ALERTNESS/DSENet/DATASET/LibriSpeech/2893/139322/2893-139322-0011.flac
+true azimuth   : 211.7 deg
+segment        : 5.0 s, anechoic (max_order=0)
+mixture SI-SDR :   1.43 dB (vs target, at reference mic)
+extract SI-SDR :   6.19 dB (checkpoint: ./checkpoints_v2/best.pt)

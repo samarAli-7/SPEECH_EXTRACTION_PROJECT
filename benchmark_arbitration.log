@@ -1,0 +1,23 @@
+
+##### 2-speaker cluster #####
+  sep   4.0 | direct   0.39 | fallback  10.54 | gate  10.54 | arbitrate   9.99 (fires 0.88, correct 0.88) | oracle  10.54
+  sep   6.0 | direct   2.35 | fallback   9.38 | gate   9.38 | arbitrate   8.39 (fires 0.75, correct 0.75) | oracle   9.38
+  sep   8.0 | direct   4.76 | fallback  12.51 | gate  12.51 | arbitrate  12.51 (fires 0.75, correct 0.75) | oracle  12.51
+  sep  10.0 | direct   4.30 | fallback  11.30 | gate  11.30 | arbitrate  10.49 (fires 0.81, correct 0.75) | oracle  11.30
+  sep  12.0 | direct   9.52 | fallback  13.25 | gate  13.25 | arbitrate  11.84 (fires 0.56, correct 0.62) | oracle  13.46
+  sep  15.0 | direct  10.64 | fallback  13.96 | gate  13.96 | arbitrate  11.21 (fires 0.25, correct 0.38) | oracle  14.47
+  sep  20.0 | direct  13.70 | fallback  10.67 | gate  13.70 | arbitrate  13.67 (fires 0.31, correct 0.50) | oracle  13.94
+  sep  25.0 | direct  14.95 | fallback   9.34 | gate  14.95 | arbitrate  15.27 (fires 0.19, correct 0.75) | oracle  15.29
+
+##### 3-speaker cluster #####
+  sep   4.0 | direct  -2.62 | fallback   6.03 | gate   6.03 | arbitrate   5.96 (fires 0.94, correct 0.94) | oracle   6.03
+  sep   6.0 | direct  -2.11 | fallback   7.80 | gate   7.80 | arbitrate   7.80 (fires 1.00, correct 1.00) | oracle   7.80
+  sep   8.0 | direct  -1.51 | fallback   8.14 | gate   8.14 | arbitrate   7.71 (fires 0.88, correct 0.88) | oracle   8.14
+  sep  10.0 | direct  -0.08 | fallback   7.58 | gate   7.58 | arbitrate   6.29 (fires 0.75, correct 0.75) | oracle   7.58
+  sep  12.0 | direct   2.21 | fallback   7.78 | gate   7.78 | arbitrate   7.03 (fires 0.69, correct 0.81) | oracle   7.78
+  sep  15.0 | direct   4.69 | fallback   9.04 | gate   9.04 | arbitrate   8.68 (fires 0.56, correct 0.81) | oracle   9.04
+  sep  20.0 | direct   8.54 | fallback  11.82 | gate  11.82 | arbitrate  10.45 (fires 0.50, correct 0.62) | oracle  11.82
+  sep  25.0 | direct  10.54 | fallback  10.82 | gate  10.54 | arbitrate  11.62 (fires 0.56, correct 0.81) | oracle  12.07
+
+Recommended gating: 2-speaker cluster: angle-gate, 3-speaker cluster: angle-gate
+Saved ./benchmark_arbitration/

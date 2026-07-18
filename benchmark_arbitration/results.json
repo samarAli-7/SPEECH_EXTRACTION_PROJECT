@@ -1,0 +1,410 @@
+{
+  "2-speaker cluster": {
+    "4": {
+      "always-direct": {
+        "median": 0.3937284052371979,
+        "mean": 0.5720524415373802
+      },
+      "always-fallback": {
+        "median": 10.544159412384033,
+        "mean": 10.263967484235764
+      },
+      "angle-gate": {
+        "median": 10.544159412384033,
+        "mean": 10.263967484235764
+      },
+      "arbitrate": {
+        "median": 9.9861159324646,
+        "mean": 9.210174061357975
+      },
+      "oracle": {
+        "median": 10.544159412384033,
+        "mean": 10.263967484235764
+      },
+      "arbitrate_fires": 0.875,
+      "arbitrate_correct": 0.875
+    },
+    "6": {
+      "always-direct": {
+        "median": 2.3537687063217163,
+        "mean": 2.006209509447217
+      },
+      "always-fallback": {
+        "median": 9.3762788772583,
+        "mean": 8.679567754268646
+      },
+      "angle-gate": {
+        "median": 9.3762788772583,
+        "mean": 8.679567754268646
+      },
+      "arbitrate": {
+        "median": 8.389552116394043,
+        "mean": 7.60323441773653
+      },
+      "oracle": {
+        "median": 9.3762788772583,
+        "mean": 8.679567754268646
+      },
+      "arbitrate_fires": 0.75,
+      "arbitrate_correct": 0.75
+    },
+    "8": {
+      "always-direct": {
+        "median": 4.7580249309539795,
+        "mean": 4.480624958872795
+      },
+      "always-fallback": {
+        "median": 12.513757228851318,
+        "mean": 12.28351080417633
+      },
+      "angle-gate": {
+        "median": 12.513757228851318,
+        "mean": 12.28351080417633
+      },
+      "arbitrate": {
+        "median": 12.513757228851318,
+        "mean": 10.6756257340312
+      },
+      "oracle": {
+        "median": 12.513757228851318,
+        "mean": 12.28351080417633
+      },
+      "arbitrate_fires": 0.75,
+      "arbitrate_correct": 0.75
+    },
+    "10": {
+      "always-direct": {
+        "median": 4.303085803985596,
+        "mean": 4.453887845855206
+      },
+      "always-fallback": {
+        "median": 11.30469560623169,
+        "mean": 10.733775705099106
+      },
+      "angle-gate": {
+        "median": 11.30469560623169,
+        "mean": 10.733775705099106
+      },
+      "arbitrate": {
+        "median": 10.487382888793945,
+        "mean": 9.45652051270008
+      },
+      "oracle": {
+        "median": 11.30469560623169,
+        "mean": 10.950023829936981
+      },
+      "arbitrate_fires": 0.8125,
+      "arbitrate_correct": 0.75
+    },
+    "12": {
+      "always-direct": {
+        "median": 9.516816139221191,
+        "mean": 8.779542461037636
+      },
+      "always-fallback": {
+        "median": 13.247101306915283,
+        "mean": 11.82412214577198
+      },
+      "angle-gate": {
+        "median": 13.247101306915283,
+        "mean": 11.82412214577198
+      },
+      "arbitrate": {
+        "median": 11.842566013336182,
+        "mean": 11.88440454006195
+      },
+      "oracle": {
+        "median": 13.456038475036621,
+        "mean": 13.203368604183197
+      },
+      "arbitrate_fires": 0.5625,
+      "arbitrate_correct": 0.625
+    },
+    "15": {
+      "always-direct": {
+        "median": 10.644033432006836,
+        "mean": 10.493513867259026
+      },
+      "always-fallback": {
+        "median": 13.95700216293335,
+        "mean": 12.535979628562927
+      },
+      "angle-gate": {
+        "median": 13.95700216293335,
+        "mean": 12.535979628562927
+      },
+      "arbitrate": {
+        "median": 11.207377910614014,
+        "mean": 11.145524144172668
+      },
+      "oracle": {
+        "median": 14.474833011627197,
+        "mean": 13.554277122020721
+      },
+      "arbitrate_fires": 0.25,
+      "arbitrate_correct": 0.375
+    },
+    "20": {
+      "always-direct": {
+        "median": 13.703522682189941,
+        "mean": 13.470799922943115
+      },
+      "always-fallback": {
+        "median": 10.674636363983154,
+        "mean": 10.523119248449802
+      },
+      "angle-gate": {
+        "median": 13.703522682189941,
+        "mean": 13.470799922943115
+      },
+      "arbitrate": {
+        "median": 13.669795513153076,
+        "mean": 13.40088814496994
+      },
+      "oracle": {
+        "median": 13.935084342956543,
+        "mean": 14.327392339706421
+      },
+      "arbitrate_fires": 0.3125,
+      "arbitrate_correct": 0.5
+    },
+    "25": {
+      "always-direct": {
+        "median": 14.95476484298706,
+        "mean": 14.891735196113586
+      },
+      "always-fallback": {
+        "median": 9.341195583343506,
+        "mean": 10.462715230882168
+      },
+      "angle-gate": {
+        "median": 14.95476484298706,
+        "mean": 14.891735196113586
+      },
+      "arbitrate": {
+        "median": 15.271402835845947,
+        "mean": 14.965396404266357
+      },
+      "oracle": {
+        "median": 15.292937755584717,
+        "mean": 15.07734090089798
+      },
+      "arbitrate_fires": 0.1875,
+      "arbitrate_correct": 0.75
+    }
+  },
+  "3-speaker cluster": {
+    "4": {
+      "always-direct": {
+        "median": -2.6171507835388184,
+        "mean": -2.657873003045097
+      },
+      "always-fallback": {
+        "median": 6.02873682975769,
+        "mean": 5.99251339584589
+      },
+      "angle-gate": {
+        "median": 6.02873682975769,
+        "mean": 5.99251339584589
+      },
+      "arbitrate": {
+        "median": 5.9619739055633545,
+        "mean": 5.463846154510975
+      },
+      "oracle": {
+        "median": 6.02873682975769,
+        "mean": 5.99251339584589
+      },
+      "arbitrate_fires": 0.9375,
+      "arbitrate_correct": 0.9375
+    },
+    "6": {
+      "always-direct": {
+        "median": -2.107290744781494,
+        "mean": -1.9798545651137829
+      },
+      "always-fallback": {
+        "median": 7.797472238540649,
+        "mean": 6.860025422647595
+      },
+      "angle-gate": {
+        "median": 7.797472238540649,
+        "mean": 6.860025422647595
+      },
+      "arbitrate": {
+        "median": 7.797472238540649,
+        "mean": 6.860025422647595
+      },
+      "oracle": {
+        "median": 7.797472238540649,
+        "mean": 6.860025422647595
+      },
+      "arbitrate_fires": 1.0,
+      "arbitrate_correct": 1.0
+    },
+    "8": {
+      "always-direct": {
+        "median": -1.5113911628723145,
+        "mean": -1.1926764158997685
+      },
+      "always-fallback": {
+        "median": 8.13831377029419,
+        "mean": 7.711114302277565
+      },
+      "angle-gate": {
+        "median": 8.13831377029419,
+        "mean": 7.711114302277565
+      },
+      "arbitrate": {
+        "median": 7.710086107254028,
+        "mean": 6.629025176167488
+      },
+      "oracle": {
+        "median": 8.13831377029419,
+        "mean": 7.711114302277565
+      },
+      "arbitrate_fires": 0.875,
+      "arbitrate_correct": 0.875
+    },
+    "10": {
+      "always-direct": {
+        "median": -0.07652663509361446,
+        "mean": 0.010802326636621729
+      },
+      "always-fallback": {
+        "median": 7.5843658447265625,
+        "mean": 7.1720482632517815
+      },
+      "angle-gate": {
+        "median": 7.5843658447265625,
+        "mean": 7.1720482632517815
+      },
+      "arbitrate": {
+        "median": 6.291872024536133,
+        "mean": 5.211210029112408
+      },
+      "oracle": {
+        "median": 7.5843658447265625,
+        "mean": 7.1720482632517815
+      },
+      "arbitrate_fires": 0.75,
+      "arbitrate_correct": 0.75
+    },
+    "12": {
+      "always-direct": {
+        "median": 2.2051481008529663,
+        "mean": 2.1331335379509255
+      },
+      "always-fallback": {
+        "median": 7.777264833450317,
+        "mean": 6.974967993795872
+      },
+      "angle-gate": {
+        "median": 7.777264833450317,
+        "mean": 6.974967993795872
+      },
+      "arbitrate": {
+        "median": 7.034495830535889,
+        "mean": 6.6491588045610115
+      },
+      "oracle": {
+        "median": 7.777264833450317,
+        "mean": 7.348437248612754
+      },
+      "arbitrate_fires": 0.6875,
+      "arbitrate_correct": 0.8125
+    },
+    "15": {
+      "always-direct": {
+        "median": 4.69431209564209,
+        "mean": 5.017906099557877
+      },
+      "always-fallback": {
+        "median": 9.0400071144104,
+        "mean": 7.77148125693202
+      },
+      "angle-gate": {
+        "median": 9.0400071144104,
+        "mean": 7.77148125693202
+      },
+      "arbitrate": {
+        "median": 8.675296306610107,
+        "mean": 7.782297998666763
+      },
+      "oracle": {
+        "median": 9.0400071144104,
+        "mean": 8.623053163290024
+      },
+      "arbitrate_fires": 0.5625,
+      "arbitrate_correct": 0.8125
+    },
+    "20": {
+      "always-direct": {
+        "median": 8.538235187530518,
+        "mean": 8.221322149038315
+      },
+      "always-fallback": {
+        "median": 11.824111938476562,
+        "mean": 10.78551135957241
+      },
+      "angle-gate": {
+        "median": 11.824111938476562,
+        "mean": 10.78551135957241
+      },
+      "arbitrate": {
+        "median": 10.446434497833252,
+        "mean": 10.14118868112564
+      },
+      "oracle": {
+        "median": 11.824111938476562,
+        "mean": 11.11282616853714
+      },
+      "arbitrate_fires": 0.5,
+      "arbitrate_correct": 0.625
+    },
+    "25": {
+      "always-direct": {
+        "median": 10.54344367980957,
+        "mean": 10.527136325836182
+      },
+      "always-fallback": {
+        "median": 10.815586566925049,
+        "mean": 10.198331631720066
+      },
+      "angle-gate": {
+        "median": 10.54344367980957,
+        "mean": 10.527136325836182
+      },
+      "arbitrate": {
+        "median": 11.617531776428223,
+        "mean": 11.299168318510056
+      },
+      "oracle": {
+        "median": 12.070652484893799,
+        "mean": 11.694998294115067
+      },
+      "arbitrate_fires": 0.5625,
+      "arbitrate_correct": 0.8125
+    }
+  },
+  "summary": {
+    "2-speaker cluster": {
+      "always-direct": 7.393545775383245,
+      "always-fallback": 10.91334475018084,
+      "angle-gate": 11.835432330146432,
+      "arbitrate": 11.042720994912088,
+      "oracle": 12.292431104928255
+    },
+    "3-speaker cluster": {
+      "always-direct": 2.509987056870159,
+      "always-fallback": 7.9332492032554,
+      "angle-gate": 7.9743497900199145,
+      "arbitrate": 7.504490073162742,
+      "oracle": 8.314377032322227
+    }
+  },
+  "recommended_gating": {
+    "2-speaker cluster": "angle-gate",
+    "3-speaker cluster": "angle-gate"
+  }
+}
